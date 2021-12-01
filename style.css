@@ -1,0 +1,56 @@
+*{
+	list-style: none;
+	text-decoration: none;
+}
+
+body{
+	background-image: url(book.jpg);
+
+}
+
+/*header*/
+.d-header{
+	display: flex;
+	background-color: white;
+}
+.logo{
+	font-size: 45px;
+	margin: 20%;
+	align-items: center;
+}
+.ul-nav{
+	font-size: 20px;
+	margin-left: 150%;
+	width: 100%;
+	height: 10vh;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	align-items: center;
+}
+.d-main{
+	margin-left: 20%;
+	color: white;
+	
+	font-size: 25px;
+}
+.bacground{
+	text-align: center;
+	/*width: 1000px;
+	height: auto;
+	background-color: black;*/
+}
+.design{
+	background-color: white;
+	text-align: center;
+}
+
+
+  /*media ...*/
+@media screen and (max-width: 900px) {
+   .ul-nav{
+    display: none;
+  }
+  ./*bacground{
+  	display: none;
+  }*/
+}
