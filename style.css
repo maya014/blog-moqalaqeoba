@@ -33,11 +33,12 @@ body{
 	
 	font-size: 25px;
 }
+.d-main p{
+	background-color: black;
+}
 .bacground{
 	text-align: center;
-	/*width: 1000px;
-	height: auto;
-	background-color: black;*/
+	
 }
 .design{
 	background-color: white;
